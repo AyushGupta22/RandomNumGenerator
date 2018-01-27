@@ -5,7 +5,7 @@ print('Enter min limit')
 min = int(input())
 print('Enter max limit')
 max = int(input())
-while max < min:
+while max <= min:
     print('Wrong max limit\nEnter Again: ')
     max = int(input())
 print('Want to generate more than one number input Y')
