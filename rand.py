@@ -1,7 +1,7 @@
 import sys
 from time import gmtime, strftime
 
-def random(min, max,n, seed=-1):
+def random(min, max,n=1, seed=-1):
     limit = max-min+1
     sLimit = limit*2
     if seed == -1:
